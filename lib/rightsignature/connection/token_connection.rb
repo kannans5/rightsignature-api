@@ -3,7 +3,7 @@ module RightSignature
     include HTTParty
     base_uri 'https://rightsignature.com'
     format :xml
-    ssl_version ::TLSv1_2
+    ssl_version :TLSv1_2
     
     attr_reader :api_token
 
