@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency "rspec", ">= 2.11.0"
 
   s.add_dependency "oauth", ">= 0.4.0"
-  s.add_dependency "httparty", ">= 0.9.0"
+  s.add_dependency "httparty", ">= 0.16.0"
   s.add_dependency 'xml-fu', '>= 0.2.0'
 
   s.files        = `git ls-files`.split("\n")
